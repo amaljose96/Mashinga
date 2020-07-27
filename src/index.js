@@ -1,15 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import * as serviceWorker from "./serviceWorker";
-import SampleApp from "./SampleApp";
+import Mashinga from "./Mashinga";
 import { BrowserRouter as Router } from "react-router-dom";
-import { Provider } from "./SampleApp/Store";
+import { Provider } from "./Mashinga/Store";
 
 ReactDOM.render(
   <React.StrictMode>
     <Provider>
       <Router>
-        <SampleApp />
+        <Mashinga/>
       </Router>
     </Provider>
   </React.StrictMode>,
